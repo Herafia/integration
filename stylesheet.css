@@ -1,0 +1,127 @@
+
+h2 {
+text-align: center;
+margin-top: 4vh;
+}
+
+span {
+	font-size : 25px;
+}
+
+#cards {
+	justify-content: space-between;
+	margin-left: 4vh;
+}
+
+.pills {
+	margin: 3vh;
+}
+
+.row {
+	display: flex;
+	justify-content: space-around;
+}
+
+.image140 {
+margin-left: 20vh;
+}
+
+h3{
+		margin-left: 6vh;
+}
+
+.para2 {
+	margin-left: 4vh;
+}
+
+
+h4{
+		margin-left: 6vh;
+}
+
+.bouttonContact {
+
+ align-items: center;
+}
+
+.underline {
+	text-decoration: underline;
+	font-size: 12px;
+
+}
+
+#bouttonContact {
+	margin-top: 5vh;
+}
+
+.flotte {
+	float: right;
+}
+
+.imageJoinArmy {
+	float: left;
+	margin-left: 5vh;
+	margin-top: 3vh;
+}
+
+.texte {
+float: right;
+}
+
+#bouttonContact2 {
+	margin: 5vh;
+}
+
+.page-footer{
+	background-color: #252525;
+}
+
+
+
+
+.coins {
+	position: absolute;
+	top: 10%;
+	transform: translate(50%);
+	background-color: #A39F97;
+	padding: 5px;
+	left: -1vh;
+}
+
+
+.hidden {
+	position: relative;
+	opacity: 0.7;
+}
+
+.hidden:hover .coins {
+	display: none;
+}
+
+
+
+.images:hover {
+	opacity:0.6;
+}
+
+.imageMort:hover {
+	opacity: 0.6;
+}
+
+
+.dead {
+	position: absolute;
+	top: 40%;
+	left: 27%;
+	font-size: 7vh;
+	font-weight: bold;
+}
+
+.hiddenMort {
+position: relative;
+}
+
+
+.hiddenMort:hover .dead {
+	display: none;
+}
